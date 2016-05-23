@@ -1,0 +1,2 @@
+You are not allowed to use or release any of the source code or resources, commercially or otherwise.
+The only exception is when you have explicit written permission from Topicus Onderwijs located in Deventer, The Netherlands.
