@@ -110,7 +110,10 @@ final class PizzaNode : SKSpriteNode {
     
     convenience init(pizza: Pizza, path: CGMutablePath, fromAngle: Angle, toAngle: Angle) {
         
-        let image = NSImage(named: pizza.image)?.cut(path) ?? NSImage()
+        // TODO: Switch comment after implementing `pizza.image`
+        let imageName = "PepperPizza"
+        //let imageName = pizza.image
+        let image = NSImage(named: imageName)?.cut(path) ?? NSImage()
         
         self.init(texture: SKTexture(image: image))
         

@@ -27,6 +27,7 @@ protocol PizzaSceneDelegate : AnyObject {
     
     /// Called right after the scene performed a cut.
     /// - Returns: The score that the cut was worth.
-    func scene(scene: PizzaScene, didCutPizza pizza: Pizza, intoSlices slices: [Slice]) -> Int
+    // TODO: Remove comment after implementing `Slice`
+    // func scene(scene: PizzaScene, didCutPizza pizza: Pizza, intoSlices slices: [Slice]) -> Int
     
 }

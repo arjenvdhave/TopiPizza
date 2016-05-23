@@ -11,9 +11,9 @@
 		E9010C2B1CEDA9E9003686E3 /* SKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9010C2A1CEDA9E9003686E3 /* SKColor.swift */; };
 		E901B9101CE49FEE00E8EE44 /* PizzaNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E901B90F1CE49FEE00E8EE44 /* PizzaNode.swift */; };
 		E92A00831CEC474F00F84B99 /* CGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92A00821CEC474F00F84B99 /* CGRectExtensions.swift */; };
-		E92A00851CEC496900F84B99 /* PizzaSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92A00841CEC496900F84B99 /* PizzaSceneDelegate.swift */; };
 		E92A00871CEC703F00F84B99 /* PizzaGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92A00861CEC703F00F84B99 /* PizzaGame.swift */; };
 		E92A00891CEC7C7100F84B99 /* CGVectorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92A00881CEC7C7100F84B99 /* CGVectorExtensions.swift */; };
+		E962A0601CF384A3007D3338 /* PizzaSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92A00841CEC496900F84B99 /* PizzaSceneDelegate.swift */; };
 		E966F5051CF2FB4F00B7831B /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E966F5041CF2FB4F00B7831B /* StringExtensions.swift */; };
 		E966F5071CF3018C00B7831B /* Topping.swift in Sources */ = {isa = PBXBuildFile; fileRef = E966F5061CF3018C00B7831B /* Topping.swift */; };
 		E966F5091CF302E300B7831B /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = E966F5081CF302E300B7831B /* Key.swift */; };
@@ -247,8 +247,8 @@
 				E966F5091CF302E300B7831B /* Key.swift in Sources */,
 				E9C96C9A1CE607C1000EA048 /* CutNode.swift in Sources */,
 				E966F50B1CF3032100B7831B /* NSEventExtensions.swift in Sources */,
+				E962A0601CF384A3007D3338 /* PizzaSceneDelegate.swift in Sources */,
 				E9D853A31CE47BEF007E4301 /* PizzaScene.swift in Sources */,
-				E92A00851CEC496900F84B99 /* PizzaSceneDelegate.swift in Sources */,
 				E901B9101CE49FEE00E8EE44 /* PizzaNode.swift in Sources */,
 				E9D4E3DA1CE60059001CA2BE /* Pizza.swift in Sources */,
 				E92A00871CEC703F00F84B99 /* PizzaGame.swift in Sources */,

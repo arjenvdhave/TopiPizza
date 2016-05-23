@@ -8,16 +8,4 @@
 
 import Foundation
 
-extension PizzaNode {
-    
-    var slice : Slice? {
-        
-        if let pizza = pizza where isSlice {
-            return Slice(pizza: pizza, fromAngle: fromAngle, toAngle: toAngle)
-        } else {
-            return nil
-        }
-        
-    }
-    
-}
+

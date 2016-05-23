@@ -8,16 +8,4 @@
 
 import Foundation
 
-struct Slice {
-    
-    var pizza : Pizza
-    var fromAngle : Angle
-    var toAngle : Angle
-    
-    var angle : Angle {
-        
-        return .Degrees(toAngle.degrees - fromAngle.degrees)
-        
-    }
-    
-}
+

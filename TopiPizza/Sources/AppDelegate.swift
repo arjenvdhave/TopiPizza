@@ -15,7 +15,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     // MARK: - Properties
     
     @IBOutlet private weak var spriteView: SKView?
-    private var game = PizzaGame()
+    
+    //TODO: Remove after creating PizzaGame
+    //private var game = PizzaGame()
     
     
     
@@ -25,7 +27,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         if let scene = PizzaScene(fileNamed:"PizzaScene"), spriteView = spriteView {
             
-            scene.pizzaDelegate = game
+            //TODO: Remove after creating PizzaGame
+            //scene.pizzaDelegate = game
             
             scene.scaleMode = .AspectFit
             spriteView.presentScene(scene)

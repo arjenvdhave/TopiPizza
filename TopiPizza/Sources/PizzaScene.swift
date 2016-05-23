@@ -121,13 +121,14 @@ final class PizzaScene : SKScene {
             
             let cut = Cut(from: drag, to: event.locationInNode(self))
             
-            if ( pizzaDelegate?.scene(self, shouldCut: cut) == true ) {
+            if ( pizzaDelegate?.scene(self, shouldCut: cut) ?? true ) {
                 
                 let cutNode = CutNode(cut: cut)
                 
                 addChild(cutNode)
                 
-                nodes.forEach({
+                // TODO: Remove comment after implementing extension for PizzaNode
+                /*nodes.forEach({
                     
                     let sliceNodes = $0.cut(from: cut.from, to: cut.to)
                     let slices = sliceNodes.flatMap({ $0.slice })
@@ -144,7 +145,7 @@ final class PizzaScene : SKScene {
                         
                     }
                     
-                })
+                })*/
                 
                 cutNode.runAction(
                     SKAction.fadeOutWithDuration(0.5),
